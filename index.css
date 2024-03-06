@@ -180,6 +180,10 @@ body{
         width: 100%;
         position: relative;
     }
+    div.diary {
+        width: 100%;
+        position: relative;
+    }
     img.profile {
         margin-left: 10vw;
         width: 30vw;
@@ -250,6 +254,34 @@ body{
         background:linear-gradient(transparent 70%,#ffe6aa 0%);
     }
     p.news a::after {
+        content: "";
+        display: inline-block;
+        width: 2vw;
+        height: 2vw;
+        background-image: url(./img/link.png);
+        background-size: contain;
+        vertical-align: middle;
+    }
+    h2.diary {
+        margin-left: 5%;
+        font-size: 3.5vw;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    p.diary {
+        margin-left: 10%;
+        font-size: 3vw;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    p.diary a {
+        font-size: 3vw;
+        font-weight: bold;
+        color: #ffffff;
+        text-decoration: none;
+        background:linear-gradient(transparent 70%,#ffe6aa 0%);
+    }
+    p.diary a::after {
         content: "";
         display: inline-block;
         width: 2vw;
@@ -392,6 +424,10 @@ body{
         width: 100%;
         position: relative;
     }
+    div.diary {
+        width: 100%;
+        position: relative;
+    }
     img.profile {
         display:none;
     }
@@ -456,6 +492,34 @@ body{
         display: inline-block;
         width: 2vw;
         height: 2vw;
+        background-image: url(./img/link.png);
+        background-size: contain;
+        vertical-align: middle;
+    }
+    h2.diary {
+        margin-left: 5%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    p.diary {
+        margin-left: 10%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    p.diary a {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+        text-decoration: none;
+        background:linear-gradient(transparent 70%,#ffe6aa 0%);
+    }
+    p.diary a::after {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
         background-image: url(./img/link.png);
         background-size: contain;
         vertical-align: middle;
